@@ -19,7 +19,7 @@ public class Fecha
         this.mes = mes;
         this.año = año;
 
-    }   
+    }
 
     /**
      * accesor para  el día   
@@ -74,9 +74,8 @@ public class Fecha
      * Devuelve una copia exacta al objeto actual
      */
     public Fecha obtenerCopia() {
-         return null;
-
-    }
+        return new Fecha(dia, mes, año);
+    }   
 
     /**
      * 
@@ -85,7 +84,7 @@ public class Fecha
         return this.dia + "/"  + this.mes+ "/" + this.año;
 
     }
-
+    
     
 
 }
